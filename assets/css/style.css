@@ -1,0 +1,84 @@
+/* HELPER CLASSES BEGIN */
+
+.alignLeft {
+  float: left;
+}
+
+.alignRight {
+  float: right;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+em, i {
+  font-style: italic;
+}
+
+p, ul li, ol li {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/*HELPER CLASSES END*/
+
+/* GENERAL RULES*/
+
+* {
+  box-sizing: border-box;
+}
+
+.black-holder {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.yellowBox {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 135px;
+  z-index: 999;
+}
+
+.greenBox {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 135px;
+  top: 70px;
+  z-index: 1000;
+}
+
+.redBox {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 135px;
+  top: 200px;
+  z-index: 1001;
+}
